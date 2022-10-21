@@ -26,7 +26,7 @@
           devShells.prod
         ];
         nativeBuildInputs = with pkgs; [ 
-          gcc6
+          gcc11
         ];
         buildInputs = with pkgs; [
           cmake
